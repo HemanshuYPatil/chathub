@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@hugeicons/react": "^0.6.3",
     "@langchain/anthropic": "^0.1.17",
     "@langchain/community": "^0.3.17",
     "@langchain/core": "^0.2.36",

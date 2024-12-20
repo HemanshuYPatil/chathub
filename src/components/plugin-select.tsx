@@ -10,7 +10,7 @@ import { Switch } from "./ui/switch";
 import { Tooltip } from "./ui/tooltip";
 import { Flex } from "./ui/flex";
 import { Type } from "./ui/text";
-import { ConnectIcon } from "@hugeicons/react";
+import { ConnectIcon } from "hugeicons-react";
 export type TPluginSelect = {
   selectedAssistantKey: string;
 };
@@ -43,7 +43,7 @@ export const PluginSelect = ({ selectedAssistantKey }: TPluginSelect) => {
         <Tooltip content="Plugins">
           <PopoverTrigger asChild>
             <Button variant="ghost" size="sm">
-              <ConnectIcon size={16} variant="stroke" strokeWidth="2" />
+              <ConnectIcon size={16} strokeWidth="2" />
               <Badge>{selectedPlugins.length}</Badge>
             </Button>
           </PopoverTrigger>

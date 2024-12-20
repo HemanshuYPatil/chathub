@@ -8,7 +8,7 @@ import {
 } from "./ui/dropdown-menu";
 import { Tooltip } from "./ui/tooltip";
 import { Button } from "./ui/button";
-import { ArrowDown01Icon, SparklesIcon } from "@hugeicons/react";
+import { ArrowDown01Icon, SparklesIcon } from "hugeicons-react";
 import { Badge } from "./ui/badge";
 import { TAssistant } from "@/hooks";
 
@@ -33,9 +33,9 @@ export const RegenerateWithModelSelect = ({
           <DropdownMenuTrigger asChild>
             {
               <Button variant="ghost" size="sm" rounded="lg">
-                <SparklesIcon size={18} variant="stroke" strokeWidth="2" />
+                <SparklesIcon size={18}  strokeWidth="2" />
                 {messageAssistantProps?.model?.name}
-                <ArrowDown01Icon size={16} variant="stroke" strokeWidth="2" />
+                <ArrowDown01Icon size={16} strokeWidth="2" />
               </Button>
             }
           </DropdownMenuTrigger>

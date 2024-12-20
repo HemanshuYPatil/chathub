@@ -10,7 +10,7 @@ import { usePreferenceContext } from "@/context/preferences";
 import { useModelList } from "@/hooks/use-model-list";
 import { Flex } from "./ui/flex";
 import { Type } from "./ui/text";
-import { Settings03Icon } from "@hugeicons/react";
+import { Settings03Icon } from "hugeicons-react";
 
 export const QuickSettings = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,7 +39,7 @@ export const QuickSettings = () => {
       <Tooltip content="Configure Model">
         <PopoverTrigger asChild>
           <Button variant={"ghost"} size={"iconSm"}>
-            <Settings03Icon size={16} variant="stroke" strokeWidth="2" />
+            <Settings03Icon size={16}  strokeWidth="2" />
           </Button>
         </PopoverTrigger>
       </Tooltip>

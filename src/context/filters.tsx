@@ -31,7 +31,7 @@ import {
   Delete01Icon,
   Moon02Icon,
   Sun03Icon,
-} from "@hugeicons/react";
+} from "hugeicons-react";
 
 import { createContext, useContext } from "react";
 import { useSessionsContext } from "./sessions";

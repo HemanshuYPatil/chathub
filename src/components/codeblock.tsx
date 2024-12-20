@@ -2,7 +2,7 @@ import hljs from "highlight.js";
 import { useEffect, useRef } from "react";
 
 import { useClipboard } from "@/hooks/use-clipboard";
-import { Copy01Icon, Tick01Icon } from "@hugeicons/react";
+import { Copy01Icon, Tick01Icon } from "hugeicons-react";
 import { Button } from "./ui/button";
 import { Tooltip } from "./ui/tooltip";
 import { Check, Copy } from "@phosphor-icons/react";
@@ -39,9 +39,9 @@ export const CodeBlock = ({ lang, code }: codeBlockProps) => {
             }}
           >
             {showCopied ? (
-              <Tick01Icon size={14} variant="stroke" strokeWidth="2" />
+              <Tick01Icon size={14}  strokeWidth="2" />
             ) : (
-              <Copy01Icon size={14} variant="stroke" strokeWidth="2" />
+              <Copy01Icon size={14}  strokeWidth="2" />
             )}{" "}
             Copy Code
           </Button>

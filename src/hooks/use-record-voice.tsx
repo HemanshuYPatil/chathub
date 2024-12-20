@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 import { Microphone, StopCircle } from "@phosphor-icons/react";
 import { Tooltip } from "@/components/ui/tooltip";
 import { AudioWaveSpinner } from "@/components/ui/audio-wave";
-import { RecordIcon, StopIcon } from "@hugeicons/react";
+import { RecordIcon, StopIcon } from "hugeicons-react";
 
 export const useRecordVoice = () => {
   const [text, setText] = useState<string>("");
@@ -143,7 +143,7 @@ export const useRecordVoice = () => {
           >
             <StopIcon
               size={18}
-              variant="solid"
+              
               strokeWidth="2"
               className="text-red-300"
             />{" "}
@@ -155,7 +155,7 @@ export const useRecordVoice = () => {
     return (
       <Tooltip content="Record">
         <Button size="iconSm" variant="ghost" onClick={startVoiceRecording}>
-          <RecordIcon size={18} variant="stroke" strokeWidth="2" />
+          <RecordIcon size={18}  strokeWidth="2" />
         </Button>
       </Tooltip>
     );

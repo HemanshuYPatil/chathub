@@ -76,8 +76,13 @@ export const ModelSelect = ({
                   {assistant.type === "base" ? (
                     model?.icon("sm")
                   ) : (
-                    <ModelIcon type="custom" size="sm" />
+                    <div>
+                      <ModelIcon type="custom" size="sm" />
+                
+                    </div>
+                     
                   )}
+                  <p>{assistant.name}</p>
                   {model?.isNew && <Badge>New</Badge>}
                 </DropdownMenuItem>
               );

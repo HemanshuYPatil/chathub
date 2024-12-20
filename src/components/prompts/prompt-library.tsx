@@ -1,6 +1,6 @@
 import { useChatContext } from "@/context/chat";
 import { TPrompt } from "@/hooks/use-prompts";
-import { Edit02Icon, NoteIcon } from "@hugeicons/react";
+import { Edit02Icon, NoteIcon } from "hugeicons-react";
 import { DotsThree, Pencil, TrashSimple } from "@phosphor-icons/react";
 import { Button } from "../ui/button";
 import {
@@ -63,7 +63,7 @@ export const PromptLibrary = ({
             className="w-full"
             onSelect={onCreate}
           >
-            <Edit02Icon size={18} variant="stroke" strokeWidth="2" />
+            <Edit02Icon size={18} strokeWidth="2" />
             Create Prompt
           </CommandItem>
           <CommandGroup heading="Prompts Collections">
@@ -76,7 +76,7 @@ export const PromptLibrary = ({
                   onPromptSelect(prompt);
                 }}
               >
-                <NoteIcon size={20} variant="stroke" strokeWidth="2" />
+                <NoteIcon size={20} strokeWidth="2" />
                 {prompt.name}
                 {tab === "local" && (
                   <DropdownMenu>

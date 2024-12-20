@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
-import { SparklesIcon } from "@hugeicons/react";
+import { SparklesIcon } from "hugeicons-react";
 
 export type ModelIconType =
   | "gpt3"
@@ -46,7 +46,7 @@ export const ModelIcon = ({ type, size }: TModelIcon) => {
           size === "lg" && "min-w-10 h-10"
         )}
       >
-        <SparklesIcon size={16} strokeWidth={1.5} variant="solid" />
+        <SparklesIcon size={16} strokeWidth={1.5} />
       </div>
     );
   }
