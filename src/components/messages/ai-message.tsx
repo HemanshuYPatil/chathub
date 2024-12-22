@@ -209,9 +209,9 @@ export const AIMessage = ({ chatMessage, isLast }: TAIMessage) => {
                   onClick={handleCopyContent}
                 >
                   {showCopied ? (
-                    <Tick01Icon size={18} variant="stroke" strokeWidth={"2"} />
+                    <Tick01Icon size={18} strokeWidth={"2"} />
                   ) : (
-                    <Copy01Icon size={18} variant="stroke" strokeWidth={"2"} />
+                    <Copy01Icon size={18} strokeWidth={"2"} />
                   )}
                 </Button>
               </Tooltip>
@@ -225,7 +225,7 @@ export const AIMessage = ({ chatMessage, isLast }: TAIMessage) => {
                 >
                   <ThumbsDownIcon
                     size={18}
-                    variant="stroke"
+                   
                     strokeWidth={"2"}
                   />
                 </Button>
@@ -239,7 +239,7 @@ export const AIMessage = ({ chatMessage, isLast }: TAIMessage) => {
                     <Button variant="ghost" size="iconSm" rounded="lg">
                       <Delete01Icon
                         size={18}
-                        variant="stroke"
+                       
                         strokeWidth={"2"}
                       />
                     </Button>
