@@ -34,6 +34,7 @@
     "@tiptap/pm": "^2.10.3",
     "@tiptap/react": "^2.10.3",
     "@tiptap/starter-kit": "^2.10.3",
+    "@tiptap/vue-3": "^2.10.4",
     "@types/jsdom": "^21.1.7",
     "@types/lodash": "^4.17.1",
     "@types/puppeteer": "^7.0.4",
@@ -73,10 +74,10 @@
     "tailwind-merge": "^2.3.0",
     "tailwind-scrollbar-hide": "phosphor-icons/react",
     "tailwindcss-animate": "^1.0.7",
-    "tiptap": "^1.32.2",
     "turndown": "^7.2.0",
     "uuid": "^9.0.1",
-    "vaul": "^0.9.1"
+    "vaul": "^0.9.1",
+    "vue": "^2.7.16"
   },
   "devDependencies": {
     "@types/node": "^20",
